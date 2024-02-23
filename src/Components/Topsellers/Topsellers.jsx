@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import topSeller1 from '../../assets/img/livestock.jpg';
 import topSeller2 from '../../assets/img/Fruits.jpg';
-import topSeller3 from '../../assets/img/fertilizer.jpg';
+import topSeller3 from '../../assets/img/new.jpg';
 
 const TopSellers = () => {
   const topSellers = [
@@ -45,6 +45,14 @@ const TopSellers = () => {
   return (
     <div className="top-sellers">
       <h2>Top Sellers</h2>
+      <div>
+        <select className="input" id="dropdown">
+          <option>Fertizers</option>
+          <option>Livestock</option>
+          <option>Crops</option>
+
+        </select>
+      </div>
       <Slider {...settings}>
         {topSellers.map((image, index) => (
           <div key={index} className='img-container'>
@@ -52,9 +60,14 @@ const TopSellers = () => {
           </div>
         ))}
       </Slider>
+      
     </div>
+    
+    
+
   );
 };
+
 
 export default TopSellers;
 
