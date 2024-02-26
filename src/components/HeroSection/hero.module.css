@@ -1,0 +1,45 @@
+.heroContainer {
+    background: url(../../assets/images.hero/herobg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .heroContainer img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .heroContainer img:hover {
+    transform: scale(1.1);
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+  }
+  .descrip {
+    color: white;
+    font-size: 20px;
+  }
+  .checkout {
+    background-color: #e4a112;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    font-size: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .checkout a {
+    color: white;
+    text-decoration: none;
+  }
