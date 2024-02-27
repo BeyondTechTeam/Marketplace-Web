@@ -1,0 +1,20 @@
+.logo{
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 2rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #8a8484ee; */
+}
+
+.linktags{
+    margin-right: 3rem;
+}
+
+.carticon{
+    margin-right: 2rem;
+}
