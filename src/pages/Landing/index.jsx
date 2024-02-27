@@ -1,14 +1,13 @@
-import React from "react";
-import CategoryText from "../../components/categories/CategoryText";
-import CategoryContainer from "../../components/categories/CategoryContainer";
+import Topsellers from "../../Components/Topsellers/Topsellers";
 
-function LandingPage() {
+const LandingPage = () => {
   return (
     <div>
-      <CategoryText />
-      <CategoryContainer />
+      <Topsellers />
     </div>
   );
-}
+};
 
 export default LandingPage;
+
+
