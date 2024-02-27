@@ -22,7 +22,10 @@ function Navbar() {
           Sell
         </Link>
       </div>
+      <div className="cart-count">
       <img className={styles.carticon} src={carticon} alt="carticon" />
+      <span className={styles.count}>0</span>
+      </div>
     </nav>
   );
 }
