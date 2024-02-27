@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  color: rgb(255, 255, 255);
+  color: #436957;
+  font-family: "Poppins", sans-serif;
 }
 .container {
   display: flex;
@@ -15,6 +16,7 @@
 h3,
 p {
   text-align: center;
+  color:#436957;
 }
 .container img {
   width: 100%;
