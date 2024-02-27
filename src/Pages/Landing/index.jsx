@@ -1,18 +1,17 @@
-import Navbar from "../../Components/Navbar/Navbar";
 import Topsellers from "../../Components/Topsellers/Topsellers";
 
 const LandingPage = () => {
-    return <div>
-        <Navbar />
-        <Topsellers />
-    </div>;
-     
+  return (
+    <div>
+      <Topsellers />
+    </div>
+  );
 };
- 
+
 export default LandingPage;
 
 // function LandingPage() {
-//     return ( 
+//     return (
 //         <div>LandingPage</div>
 //      );
 // }
