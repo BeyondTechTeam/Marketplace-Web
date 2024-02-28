@@ -3,6 +3,8 @@ import "./Topsellers.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 import topSeller1 from "../../assets/img/Carrots.jpg";
 import topSeller2 from "../../assets/img/Cocoa.jpg";
@@ -65,8 +67,9 @@ const TopSellers = () => {
   const settings = {
     dots: true,
     infinite: true,
+    arrows: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -78,40 +81,30 @@ const TopSellers = () => {
 
   return (
     <div className="top-sellers">
-      <h2>Top Sellers</h2>
-
-      <div className="sort-by">Sort by: Popularity</div>
-      <div className="input-container">
-        <select className="input">
-          <option>Fertilizers</option>
-          <option>Livestock</option>
-          <option>Fruits and Vegetables</option>
-          <option>Agro Chemicals</option>
-          <option>Agro Equipment</option>
-          <option>Fresh Produce</option>
-        </select>
-      </div>
+      <h2>Top Sellers Products</h2>
       <Slider {...settings}>
         {topSellers.map((product, index) => (
-          <div key={index} className="img-container">
-            <img
-              src={product.image}
-              alt={`Top Seller ${index + 1}`}
-              className="top-seller-img"
-            />
-            <div className="product-details">
-              <div className="product-category">{product.category}</div>
-              <div className="product-description">{product.description}</div>
-              <div className="product-price">GHC {product.price}</div>
-              <div className="product-rating">
-                {[...Array(product.rating)].map((_, index) => (
-                  <span key={index} className="star">
-                    &#9733;
-                  </span>
-                ))}
-              </div>
-              <div className="product-favorite">
-                <span className="love-icon">&#x2764;</span>
+          <div key={index} className="slide-container">
+            <div className="img-container">
+              <img
+                src={product.image}
+                alt={`Top Seller ${index + 1}`}
+                className="top-seller-img"
+              />
+              <div className="product-details">
+                <div className="product-category">{product.category}</div>
+                <div className="product-description">{product.description}</div>
+                <div className="product-price">GHC {product.price}</div>
+                <div className="product-rating">
+                  {[...Array(product.rating)].map((_, index) => (
+                    <span key={index} className="star">
+                      &#9733;
+                    </span>
+                  ))}
+                </div>
+                <div className="product-favorite">
+                  <span className="love-icon">&#x2764;</span>
+                </div>
               </div>
             </div>
           </div>
