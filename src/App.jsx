@@ -1,11 +1,24 @@
 import React from "react";
-import LandingPage from "./Pages/Landing/Landing";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+
+import Shop from "./pages/shop/Shop";
+import Contacts from "./pages/contacts/Contacts";
+import Sell from "./pages/sell/Sell";
+import LandingPage from "./pages/landing";
 
 function App() {
   return (
-    <>
-     <LandingPage/>
-    </>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contacts />} />
+          <Route path="/sell" element={<Sell />} />
+        </Routes>
+      </Router>
+
   );
 }
 
