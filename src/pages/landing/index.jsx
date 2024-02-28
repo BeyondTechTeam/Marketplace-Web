@@ -1,15 +1,16 @@
 import React from "react"
 
 // internal import
-import styles from  "./style.module.css"
 import Hero from "../../components/HeroSection/hero";
+import Footer from "../../components/FooterSection/footer";
 
 
 
 const LandingPage = () => {
   return (
-    <div className= {styles.landpage}>
+    <div>
         <Hero />
+        <Footer />
     </div>
   )
 };
