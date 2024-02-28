@@ -1,10 +1,10 @@
 import React from "react";
-import LandingPage from "./pages/Landing";
+import LandingPage from "./Pages/Landing/Landing";
 
 function App() {
   return (
     <>
-      <LandingPage />
+     <LandingPage/>
     </>
   );
 }
