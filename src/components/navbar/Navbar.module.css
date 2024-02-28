@@ -17,4 +17,20 @@ nav{
 
 .carticon{
     margin-right: 2rem;
+    height: 30px;
+    width: 30px;
+}
+
+.helpIcon {
+    height: 30px;
+    width: 30px;
+}
+.help{
+    height: 30px;
+    width: 30px;
+
+}
+.search {
+    height:30px;
+    width :30px;
 }

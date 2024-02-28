@@ -6,4 +6,4 @@ function Sell() {
   )
 }
 
-export default Sell
+export default Sell;

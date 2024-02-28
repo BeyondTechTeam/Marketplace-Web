@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import agramain from '../../assets/images/agramain.png'
 import carticon from '../../assets/images/carticon.jpeg'
+// import helpIcon from '../../assets/images/helpIcon.png'
+import help from '../../assets/images/help.png'
+import search from '../../assets/images/search.png'
 import styles from './Navbar.module.css'
 
 function Navbar() {
@@ -24,9 +27,17 @@ function Navbar() {
         </Link>
       </div>
       <img className={styles.carticon} src={carticon} alt="carticon" />
+      {/* <img className={styles.helpline} src={helpIcon.png} alt="helpline"/> */}
+      <img className={styles.help} src={help} alt="carticon" />
+      <img className={styles.search} src={search} alt="carticon" />
+
+
+
+
+
     </nav>
  
   )
 }
 
-export default Navbar
+export default Navbar;
