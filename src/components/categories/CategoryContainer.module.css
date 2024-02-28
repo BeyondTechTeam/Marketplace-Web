@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #436957;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 95%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+h3,
+p {
+  text-align: center;
+  color:#436957;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
