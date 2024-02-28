@@ -5,7 +5,7 @@
 }
 .container {
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto 100px auto;
   max-width: 95%;
   justify-content: center;
   flex-wrap: wrap;

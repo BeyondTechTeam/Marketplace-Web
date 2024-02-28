@@ -2,10 +2,10 @@ import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 
-import Shop from "./pages/shop/Shop";
-import Contacts from "./pages/contacts/Contacts";
-import Sell from "./pages/sell/Sell";
-import LandingPage from "./pages/landing";
+import Shop from "./Pages/shop/Shop";
+import Contacts from "./Pages/contacts/Contacts";
+import Sell from "./Pages/sell/Sell";
+import LandingPage from "./Pages/landing";
 
 function App() {
   return (
