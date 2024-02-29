@@ -6,6 +6,7 @@ import Contacts from "./Pages/contacts/Contacts";
 import Sell from "./Pages/sell/Sell";
 import LandingPage from "./Pages/Landing";
 import Navbar from "./Components/navbar/Navbar";
+import CheckoutPage from "./Components/Checkoutpage/Checkoutpage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contacts />} />
         <Route path="/sell" element={<Sell />} />
       </Routes>
+      <CheckoutPage />
     </Router>
   );
 }
