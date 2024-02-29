@@ -1,0 +1,154 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.slider-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider-item.active {
+  opacity: 1;
+}
+
+.content {
+  /* position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #0e0d0d; */
+  text-align: left;
+  margin: 2rem;
+}
+
+.content h2 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.description {
+  font-size: 22px;
+  text-wrap: wrap;
+  text-align: left;
+  width: 50%;
+}
+
+.mini-description {
+  font-size: 18px;
+
+  text-align: left;
+
+  display: flex;
+}
+
+.explore-btn {
+  background-color: #ff4400da;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #0e0d0d;
+    text-align: left;
+  }
+
+  .mini-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .description {
+    font-size: 24px;
+    text-wrap: wrap;
+    text-align: left;
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  .explore-btn {
+    background-color: #ff4400da;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  padding: 10px;
+  z-index: 1;
+}
+
+.slider-arrow.prev {
+  left: 10px;
+}
+
+.slider-arrow.next {
+  right: 10px;
+}
+
+.slider-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-item {
+  background-image: url("https://rntest1.myshopify.com/cdn/shop/files/13.jpg?v=1656597784");
+  background-size: cover;
+  background-position: center;
+}
+
+.second-slide {
+  background-image: url("https://rntest1.myshopify.com/cdn/shop/files/12.jpg?v=1654351908");
+  background-size: cover;
+  background-position: center;
+}
+.content2 {
+  text-align: right;
+}
+
+.mini-description2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 2rem;
+
+  margin: 2rem;
+}
+.explore-btn2 {
+  background-color: #ff4400da;
+  color: #d9c6c6;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.description2 {
+  font-size: 24px;
+  text-align: right;
+  width: 60%;
+  color: #fff;
+}
