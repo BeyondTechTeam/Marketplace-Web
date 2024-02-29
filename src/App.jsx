@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Shop from "./Pages/shop/Shop";
 import Contacts from "./Pages/contacts/Contacts";
 import Sell from "./Pages/sell/Sell";
-import LandingPage from "./Pages/Landing";
+import LandingPage from "./Pages/landing";
 import Navbar from "./Components/navbar/Navbar";
 
 function App() {
