@@ -1,5 +1,5 @@
 .landing-page {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -20,7 +20,7 @@
 
 .checkout-form {
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 10px;
 }
 
 .form-group {
