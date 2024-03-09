@@ -45,7 +45,7 @@ const Slider = () => {
             Your one-stop e-commerce platform for buying and selling all types
             of agricultural products.
           </p>
-          <button className="explore-btn2">Explore Products</button>
+          <button className="explore-btn2">Visit Our Marketplace</button>
         </div>
       </div>
 

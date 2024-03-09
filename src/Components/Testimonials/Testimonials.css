@@ -1,0 +1,81 @@
+/* Testimonials.css */
+
+.testimonials-container {
+  text-align: center;
+}
+
+.testimonials-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review {
+  width: 300px;
+  margin: 0 10px 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.review-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.form-container {
+  margin-top: 40px;
+}
+
+.leave-review-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.review-textarea {
+  height: 100px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #40563b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0f300932;
+}
