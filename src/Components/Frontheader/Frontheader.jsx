@@ -22,7 +22,9 @@ const Slider = () => {
       <div className={`slider-item ${currentSlide === 0 ? "active" : ""}`}>
         <div className="content">
           <p className="mini-description">100% Organic Products</p>
-          <h2>Welcome To Agra,Where Field Meets Market !</h2>
+          <h2 className="firsth2">
+            Welcome To Agra,Where Field Meets Market !
+          </h2>
           <p className="description">
             Explore a diverse marketplace connecting farmers and buyers,
             offering a wide range of fresh produce, livestock, equipment, and

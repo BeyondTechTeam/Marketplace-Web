@@ -116,19 +116,14 @@
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
-  color: #0e0d0d;
+  color: #ecdada;
   text-align: center;
   margin: 2rem;
 }
 
-/* .mini-description2 {
-  font-size: 20px;
-
-  padding: 2rem;
-  text-align: center;
-
-  margin: 2rem;
-} */
+.mini-description2 {
+  color: aliceblue;
+}
 .explore-btn2 {
   background-color: #ff4400da;
   color: #d9c6c6;
@@ -145,4 +140,10 @@
   width: 100%;
   color: #fff;
   margin-bottom: 50px;
+}
+h2 {
+  color: rgb(28, 139, 9);
+}
+.firsth2 {
+  color: rgba(27, 78, 8, 0.918);
 }
