@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Checkoutpage.css";
+import "./checkout.css";
 
-const CheckoutPage = () => {
+const checkout = () => {
   const [basketItems, setBasketItems] = useState([
     { id: 1, name: "Product 1", quantity: 2, price: 10 },
     { id: 2, name: "Product 2", quantity: 1, price: 20 },
@@ -198,4 +198,4 @@ const CheckoutPage = () => {
   );
 };
 
-export default CheckoutPage;
+export default checkout;

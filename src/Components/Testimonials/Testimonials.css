@@ -1,5 +1,3 @@
-/* Testimonials.css */
-
 .testimonials-container {
   text-align: center;
 }
@@ -58,7 +56,7 @@
 .input-field {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -74,6 +72,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 100px;
 }
 
 .submit-button:hover {
